@@ -1,0 +1,16 @@
+{
+    "config": {
+        "server-time-get": 8000,
+        "device-time-measurement": 10000,
+        "max-difference": 0.4,
+        "max-time-difference": 600,
+		    "max_temp_difference_esp": 0.3,
+        "UDP_host": "192.168.0.255",
+        "UDP_port": 4210,
+        "LAN_host": "192.168.0.1"
+    },
+    "dev": {
+        "DEBUG_mode": false,
+        "RST_board_after_fail": false
+    }
+}
