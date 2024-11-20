@@ -23,8 +23,8 @@ float temp_diff = 0.2;
 unsigned long blink = 0;
 int blink_type = 0;
 
-const char* ssid = "TP-LINK_CNN";
-const char* password = "rdxtfcygv111qaz";
+const char* ssid = "YOUR-SSID";
+const char* password = "YOUR-PASSWORD";
 
 ESP8266WebServer server(80);
 WiFiUDP udp;
